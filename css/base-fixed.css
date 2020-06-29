@@ -1,0 +1,75 @@
+/*For better responsive design, set font-size of html to 100%*/
+html{
+	font-size:100%;
+}
+body {
+	font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+	background-color: #B3BBCA;	
+}
+p	{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 0.875rem; 
+	line-height:1.75rem;	
+}
+h1	{
+	font-size: 1.5rem; 
+	line-height:1.5rem;
+	font-weight: bold; 
+	text-align:center;
+    margin-top: 10px;
+}
+h2,h3	{
+	font-size:1.125rem;
+	line-height:1.125rem;
+	font-weight: bold; 
+	text-align:center;
+}
+
+ul	{
+	font-size: 0.875rem;
+	background-color: #E5DAB3;
+	list-style-position: inside;
+}
+ol	{
+	font-size: 0.875rem; 
+}
+
+nav {
+	background-color: #60668B;
+	height: 40px;
+	/*min-width of nav matches width of 4 li.
+	Change if you add more li.
+	Each li is 120 plus 1 px for right and 1 px for left
+	border*/
+	min-width:488px;
+	width:100%;
+}
+nav li {
+	float: left; 
+	width: 120px; 	
+	height: 35px; 
+	background-color: #7D83A4;	
+	text-align: center; 	
+	border-left: 1px black solid; 	
+	border-right: 1px black solid;
+	line-height: 35px;
+	list-style-type:none;
+}
+
+nav ul li a {
+	color:#fff;
+	text-decoration: none;
+	display:block;
+	}
+nav ul li a:hover {
+	background-color:#fff;
+	color:#000;
+	}
+#innernav{
+	width:488px;
+	margin:0 auto;
+}
+footer { 	
+
+}
+
