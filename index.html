@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Selection Using jQuery</title>  
+<meta charset="utf-8"> 
+<!--Local version of jquery-->
+<script src="js/jquery-3.4.1.min.js"></script>
+	
+<!--Google version of jquery-->	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+<!--CSS-->
+<link rel="stylesheet" href="css/stylesheet-fixed.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/base-fixed.css">
+<style>
+	.filter li{width:150px;
+	height:40px; list-style-type: none; float:left; border:thin solid black; text-align:center;}
+	.filter li a{text-decoration:none; color:#000; }
+	</style>
+
+</head>
+<body>
+<div id="page-wrapper">
+<main id="main" role="main" class="span12">
+   <ul class="filter">
+          <li><a class="active" id="all" href="#" data-filter="*">All</a></li>
+          <li><a href="#" id="dog">Dogs</a></li>
+          <li><a href="#" id="cat">Cats</a></li>
+          <li><a href="#" id="horse">Horses</a></li>
+        </ul>
+	<div class="reset"></div>
+    <h1>Pet Selector</h1>
+    <div class="span04 first-child dog all">
+      <div class="thumbdiv"> <a href="large1.html"> <img src="images/small1.jpg"  alt="Calm, well-trained German Shepherd available for adoption." /></a> </div>
+    </div>
+    <div class="span04 horse all">
+      <div class="thumbdiv"> <a href="large2.html"> <img src="images/horses-in-stable-300.jpg" alt="This beautiful mare needs an owner who loves her!" /></a></div>
+    </div>
+    <div class="span04 last-child cat all">
+      <div class="thumbdiv"> <a href="large3.html"> <img src="images/small3.jpg"  alt="Gentle little calico cat who loves to be petted. Take her home today!" /></a></div>
+    </div>
+	    <div class="span04 first-child horse all">
+      <div class="thumbdiv"> <a href="large3.html"> <img src="images/horse-alone-300.jpg"  alt="Proud stallion, ready to run!" /></a></div>
+    </div>
+	   <div class="span04 dog all">
+      <div class="thumbdiv"> <a href="large2.html"> <img src="images/small2.jpg" alt="Precious Corgi with adorable grin, waiting to be rescued!" /></a></div>
+    </div>
+    <!--Close main--> 
+  </main>
+		&nbsp;
+	</div>
+
+<!--Custom jquery-->
+<script src="js/custom.js"></script>
+</body>
+</html>
